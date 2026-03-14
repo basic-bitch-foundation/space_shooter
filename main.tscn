@@ -1,0 +1,15 @@
+[gd_scene load_steps=2 format=3 uid="uid://bqfl41swsl512"]
+
+[ext_resource type="Script" uid="uid://iu7yb8yjsg7i" path="res://main.gd" id="1_ig7tw"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_ig7tw")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+
+[node name="GUN" type="Sprite2D" parent="."]
+
+[node name="Marker2D" type="Marker2D" parent="GUN"]
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 2.0
