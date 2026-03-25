@@ -1,15 +1,44 @@
-[gd_scene load_steps=2 format=3 uid="uid://bqfl41swsl512"]
+[gd_scene load_steps=6 format=3 uid="uid://bqfl41swsl512"]
 
 [ext_resource type="Script" uid="uid://iu7yb8yjsg7i" path="res://main.gd" id="1_ig7tw"]
+[ext_resource type="Script" uid="uid://d1f31dvce01bi" path="res://background.gd" id="2_1bvp3"]
+[ext_resource type="Texture2D" uid="uid://mk27e3mbnj47" path="res://images/bg_spaceshisp.png" id="3_lquwl"]
+[ext_resource type="PackedScene" uid="uid://buynhctlwbi3h" path="res://player.tscn" id="4_7mycd"]
+[ext_resource type="Script" uid="uid://ds8ksmupuo22h" path="res://asteroid_spawner.gd" id="6_272bh"]
 
 [node name="Node2D" type="Node2D"]
 script = ExtResource("1_ig7tw")
 
-[node name="Sprite2D" type="Sprite2D" parent="."]
+[node name="background" type="Node2D" parent="."]
+script = ExtResource("2_1bvp3")
 
-[node name="GUN" type="Sprite2D" parent="."]
+[node name="BG1" type="Sprite2D" parent="background"]
+position = Vector2(592, 85.875)
+scale = Vector2(0.29, 0.34)
+texture = ExtResource("3_lquwl")
 
-[node name="Marker2D" type="Marker2D" parent="GUN"]
+[node name="BG2" type="Sprite2D" parent="background"]
+position = Vector2(609, -1696)
+scale = Vector2(0.3, 0.342)
+texture = ExtResource("3_lquwl")
 
-[node name="Timer" type="Timer" parent="."]
-wait_time = 2.0
+[node name="Player" parent="." instance=ExtResource("4_7mycd")]
+position = Vector2(597, -451)
+collision_layer = 3
+collision_mask = 3
+
+[node name="Camera2D" type="Camera2D" parent="."]
+
+[node name="Asteroidpawner" type="Node2D" parent="."]
+script = ExtResource("6_272bh")
+
+[node name="Timer" type="Timer" parent="Asteroidpawner"]
+
+[node name="spawnleft" type="Marker2D" parent="Asteroidpawner"]
+position = Vector2(92, -499)
+
+[node name="spawnmid" type="Marker2D" parent="Asteroidpawner"]
+position = Vector2(577, -511)
+
+[node name="spawnright" type="Marker2D" parent="Asteroidpawner"]
+position = Vector2(1079, -468)

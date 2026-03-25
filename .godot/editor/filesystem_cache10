@@ -1,8 +1,15 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1773469828
+::res://::1774476859
+asteroid.gd::GDScript::5158203131583254954::1774472708::0::1::::<>Area2D<><>0<>0<><>::
+asteroid_spawner.gd::GDScript::8491425678550941977::1774242528::0::1::::<>Node2D<><>0<>0<><>::
+background.gd::GDScript::8996240570985604378::1774475801::0::1::::<>Node2D<><>0<>0<><>::
 icon.svg::CompressedTexture2D::6325794112761944590::1772468785::1772469268::1::::<><><>0<>0<>01a0b3dcfd446ce11ef8b43e47e084c1<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-main.gd::GDScript::604784211612787520::1773254743::0::1::::<>Node2D<><>0<>0<><>::
-main.tscn::PackedScene::3520485140053275711::1773230116::0::1::::<><><>0<>0<><>::uid://iu7yb8yjsg7i::::res://main.gd
+main.gd::GDScript::604784211612787520::1774242645::0::1::::<>Node2D<><>0<>0<><>::
+main.tscn::PackedScene::3520485140053275711::1774475517::0::1::::<><><>0<>0<><>::uid://iu7yb8yjsg7i::::res://main.gd<>uid://d1f31dvce01bi::::res://background.gd<>uid://mk27e3mbnj47::::res://images/bg_spaceshisp.png<>uid://buynhctlwbi3h::::res://player.tscn<>uid://ds8ksmupuo22h::::res://asteroid_spawner.gd
+main_menu.gd::GDScript::9138596599651523351::1774476336::0::1::::<>Node2D<><>0<>0<><>::
+menu.tscn::PackedScene::1989094814302970001::1774476859::0::1::::<><><>0<>0<><>::uid://d3g2l6tbsri8n::::res://main_menu.gd<>uid://kl8dyjrgmecc::::res://images/play_space.png<>uid://mk27e3mbnj47::::res://images/bg_spaceshisp.png<>uid://c1ygy70msppyf::::res://images/spaceshooter_title.png
+player.gd::GDScript::2241869959053318613::1774242528::0::1::::<>Area2D<><>0<>0<><>::
+player.tscn::PackedScene::3840544578941704423::1774472953::0::1::::<><><>0<>0<><>::uid://668jg58gkjof::::res://player.gd<>uid://g88wmreusn6u::::res://images/space_ship.png
 README.md::TextFile::-1::1772469097::0::1::::<><><>0<>0<><>::
 Test.tscn::PackedScene::8099162704508995467::1772469312::0::1::::<><><>0<>0<><>::uid://ocqr4kaowgws::::res://icon.svg
 ::res://addons/::1772469581
@@ -21,7 +28,16 @@ godot_super-wakatime.gd::GDScript::6277149880384411866::1772469312::0::1::::<>Ed
 plugin.cfg::TextFile::-1::1772469312::0::1::::<><><>0<>0<><>::
 README.md::TextFile::-1::1772469312::0::1::::<><><>0<>0<><>::
 utils.gd::GDScript::5251015809120159908::1772469312::0::1::::<>RefCounted<><>0<>0<><>::
-::res://images/::1772469316
+::res://images/::1774476922
+asteroid_1.png::CompressedTexture2D::2775653244294247389::1774457149::1774457150::1::::<><><>0<>0<>8e532a4206026de1b355090d44096de0<>res://.godot/imported/asteroid_1.png-88bf6c9f40ecb093e671d79a7ca99488.ctex::
+asteroid_2.png::CompressedTexture2D::2004291831458081496::1774457154::1774457155::1::::<><><>0<>0<>008f4b01ae4e731640ae58e9e9c71dab<>res://.godot/imported/asteroid_2.png-7b53ea0be899db6cf2d60d3664a53035.ctex::
+asteroid_3.png::CompressedTexture2D::658039786934746988::1774457152::1774457152::1::::<><><>0<>0<>762ea7a72573b432052765a5af80cdf8<>res://.godot/imported/asteroid_3.png-16444fb92a556410d02e589202b4a24f.ctex::
+bg_spaceshisp.png::CompressedTexture2D::864606659301645590::1774474801::1774474803::1::::<><><>0<>0<>735223efa2acdb715041ff18e8c285fd<>res://.godot/imported/bg_spaceshisp.png-c703b3828fe6525a2b8402df6f6b3376.ctex::
 godotwaka2.png::CompressedTexture2D::7026850610005011835::1772469312::1772469316::1::::<><><>0<>0<>46217c9c5839b2c9f7217cd3af6b8860<>res://.godot/imported/godotwaka2.png-7d3d010fb4adc0d433467ab1cc4754ed.ctex::
 godotwaka.png::CompressedTexture2D::7932361111412089001::1772469312::1772469315::1::::<><><>0<>0<>7360cc7c44aafc955def6087604c985e<>res://.godot/imported/godotwaka.png-ef0518417b4f997d237759e5551dd05d.ctex::
 icon.jpg::CompressedTexture2D::3122668444336440389::1772469312::1772469312::1::::<><><>0<>0<>3d1d80fd4049890345f07c1608fe4e66<>res://.godot/imported/icon.jpg-64f68b30ea939aa8019167e67dffb2db.ctex::
+play_space.png::CompressedTexture2D::726606885062529142::1774476442::1774476449::1::::<><><>0<>0<>ac7c7004de56c942d3dc62309ed866a3<>res://.godot/imported/play_space.png-b9184ee5cb2517cf3194a25b2dff30a9.ctex::
+space bg.jpeg::CompressedTexture2D::212915314634272333::1774473068::1774473069::1::::<><><>0<>0<>49260250147825b18738fef40f52f23b<>res://.godot/imported/space bg.jpeg-3f0cb39a9f5250028510b9f6b514c722.ctex::
+spaceshooter_title.png::CompressedTexture2D::6647705249019996873::1774476803::1774476803::1::::<><><>0<>0<>54571479c24915c7df4a5bc729b8df55<>res://.godot/imported/spaceshooter_title.png-d9c2685a38cd369e76b09c41dc54e248.ctex::
+space_ship.png::CompressedTexture2D::491301132690436726::1774457974::1774457975::1::::<><><>0<>0<>abfe4a66cc92d72893dac87a1c68a527<>res://.godot/imported/space_ship.png-9aae89142df041c4835cc6ded9bf3523.ctex::
+ss_buttons.png::CompressedTexture2D::4954174869601048376::1774476922::1774476923::1::::<><><>0<>0<>24488433115a0d64958b75e0e55e1092<>res://.godot/imported/ss_buttons.png-d98306d5a6bfdb77c37b863c5199d2e3.ctex::

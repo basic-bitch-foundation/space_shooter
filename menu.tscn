@@ -1,0 +1,34 @@
+[gd_scene load_steps=5 format=3 uid="uid://3lsdoy710wj6"]
+
+[ext_resource type="Script" uid="uid://d3g2l6tbsri8n" path="res://main_menu.gd" id="1_ouk20"]
+[ext_resource type="Texture2D" uid="uid://kl8dyjrgmecc" path="res://images/play_space.png" id="2_4hy44"]
+[ext_resource type="Texture2D" uid="uid://cct3sh7jnkrm3" path="res://images/ss_buttons.png" id="3_4hy44"]
+[ext_resource type="Texture2D" uid="uid://c1ygy70msppyf" path="res://images/spaceshooter_title.png" id="4_4hy44"]
+
+[node name="menu" type="Node2D"]
+script = ExtResource("1_ouk20")
+
+[node name="play" type="Button" parent="."]
+z_index = 1
+offset_left = 856.0
+offset_top = 528.0
+offset_right = 1390.0
+offset_bottom = 732.0
+scale = Vector2(0.5, 0.5)
+icon = ExtResource("2_4hy44")
+flat = true
+
+[node name="github" type="Button" parent="."]
+z_index = 1
+offset_left = 954.99994
+offset_top = -21.000002
+offset_right = 2943.0
+offset_bottom = 1067.0
+scale = Vector2(0.2, 0.2)
+icon = ExtResource("3_4hy44")
+flat = true
+
+[node name="Sprite2D2" type="Sprite2D" parent="."]
+position = Vector2(570.5, 322.5)
+scale = Vector2(0.54481125, 0.49055234)
+texture = ExtResource("4_4hy44")

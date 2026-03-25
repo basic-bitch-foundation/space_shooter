@@ -1,2 +1,9 @@
+res://player.tscn
+res://asteroid.gd
 res://main.tscn
+res://background.gd
+res://main_menu.gd
+res://menu.tscn
+res://asteroid_spawner.gd
 res://main.gd
+res://player.gd
